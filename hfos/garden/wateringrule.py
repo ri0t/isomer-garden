@@ -34,7 +34,7 @@ durations as well as conditions..
 
 
 """
-from hfos.schemata.base import base_object
+from isomer.schemata.base import base_object
 
 WateringRuleSchema = base_object('wateringrule', all_roles='crew')
 

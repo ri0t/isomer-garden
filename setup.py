@@ -43,9 +43,9 @@ This software package is a plugin module for HFOS.
           'hfos>=1.2.0'  # ,
           # 'hfos-robot==0.0.1'
       ],
-      entry_points="""[hfos.components]
+      entry_points="""[isomer.components]
     garden=hfos.garden.garden:Garden
-[hfos.schemata]
+[isomer.schemata]
     wateringrule=hfos.garden.wateringrule:WateringRule
     """,
       test_suite="tests.main.main",

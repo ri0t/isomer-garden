@@ -30,8 +30,8 @@ Module: Garden
 
 """
 
-from hfos.component import ConfigurableComponent
-from hfos.logger import warn  # , hfoslog, error, critical
+from isomer.component import ConfigurableComponent
+from isomer.logger import warn  # , hfoslog, error, critical
 
 
 # from hfos.database import objectmodels
@@ -47,7 +47,7 @@ class Garden(ConfigurableComponent):
     In future, it should also monitor weather and sensor data to water
     efficiently.
     """
-    channel = "hfosweb"
+    channel = 'isomer-web'
 
     configprops = {
     }
