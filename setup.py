@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-# HFOS - Hackerfleet Operating System
-# ===================================
+# Isomer Application Framework
+# ============================
 # Copyright (C) 2011-2018 Heiko 'riot' Weinen <riot@c-base.org> and others.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -23,30 +23,30 @@ __license__ = "AGPLv3"
 
 from setuptools import setup, find_packages
 
-setup(name="hfos-garden",
+setup(name="isomer-garden",
       version="0.0.1",
-      description="hfos-garden - a garden water management system",
-      author="Hackerfleet Community",
+      description="isomer-garden - a garden water management system",
+      author="Heiko 'ri0t' Weinen",
       author_email="riot@c-base.org",
-      url="https://github.com/hackerfleet/hfos-garden",
+      url="https://github.com/ri0t/isomer-garden",
       license="GNU Affero General Public License v3",
       packages=find_packages(),
-      long_description="""HFOS - Garden
-============
+      long_description="""Isomer - Garden
+==============
 
 A modern, opensource approach to garden water management.
 
-This software package is a plugin module for HFOS.
+This software package is a plugin module for Isomer.
 """,
       dependency_links=[],
       install_requires=[
-          'hfos>=1.2.0'  # ,
+          'isomer>=1.0.0'  # ,
           # 'hfos-robot==0.0.1'
       ],
       entry_points="""[isomer.components]
-    garden=hfos.garden.garden:Garden
+    garden=isomer.garden.garden:Garden
 [isomer.schemata]
-    wateringrule=hfos.garden.wateringrule:WateringRule
+    wateringrule=isomer.garden.wateringrule:WateringRule
     """,
       test_suite="tests.main.main",
       )

@@ -1,1 +1,1 @@
-"""Garden components for HFOS"""
+"""Garden components for Isomer"""

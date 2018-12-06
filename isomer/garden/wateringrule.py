@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 
-# HFOS - Hackerfleet Operating System
-# ===================================
+# Isomer Application Framework
+# ============================
 # Copyright (C) 2011-2018 Heiko 'riot' Weinen <riot@c-base.org> and others.
 #
 # This program is free software: you can redistribute it and/or modify
@@ -84,14 +84,14 @@ WateringRuleForm = [
     {
         'key': 'Toggle',
         'type': 'button',
-        'onClick': 'formAction("hfos.garden", "toggle", model.uuid)',
+        'onClick': 'formAction("isomer.garden", "toggle", model.uuid)',
         'title': 'Toggle WateringRule'
     },
     {
         'key': 'Suspend',
         'type': 'button',
         'condition': 'model.status',
-        'onClick': 'formAction("hfos.garden", "suspend", model.uuid)',
+        'onClick': 'formAction("isomer.garden", "suspend", model.uuid)',
         'title': 'Suspend the rule for the next time'
     },
     {

@@ -1,4 +1,4 @@
-"""Garden components for HFOS"""
+"""Garden components for Isomer"""
 
 __author__ = "Heiko 'riot' Weinen <riot@c-base.org>"
 __license__ = "AGPLv3"

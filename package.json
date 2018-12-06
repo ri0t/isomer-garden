@@ -1,7 +1,7 @@
 {
-  "name": "hfos-garden",
+  "name": "isomer-garden",
   "version": "0.0.1",
-  "description": "A garden module for HFOS",
+  "description": "A garden module for Isomer",
   "preferGlobal": true,
   "scripts": {
     "build": "webpack --config webpack.build.js --bail -p",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackerfleet/hfos-garden.git"
+    "url": "https://github.com/isomeric/isomer-garden.git"
   },
   "author": "Heiko 'riot' Weinen",
   "license": "AGPLv3",
   "bugs": {
-    "url": "https://github.com/hackerfleet/hfos-garden/issues"
+    "url": "https://github.com/isomeric/isomer-garden/issues"
   },
-  "homepage": "https://github.com/hackerfleet/hfos-garden",
+  "homepage": "https://github.com/isomeric/isomer-garden",
   "dependencies": {
     "angular": "^1.3.16",
     "angular-ui-router": "^0.2.15",
